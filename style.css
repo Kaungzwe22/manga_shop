@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+#navbar{
+    width: 100%;
+    height: 100%;
+    background-color:#FFDD44;
+}
+#navbar .container{
+    width: 100%;
+    height: 100%;
+}
+#navbar .container .row{
+    width: 100%;
+    height: 100%;
+}
+#navbar .col-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar .col-4 a{
+    margin: 20px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#navbar .col-4 a:hover{
+    border-bottom: 1px solid #880808;
+    border-radius: 2px;
+}
+#navbar .col-4 i{
+    font-size: 20px;
+    margin: 10px 10px;
+}
+#navbar i:hover{
+    scale: 1.1;
+    transition: .3s;
+    rotate: 20deg;
+}
+#navbar .searchbox input:focus{
+    padding-right: 60px;
+    outline: none;
+}
+#navbar .searchbox input{
+    transition: all 1s ease;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+/*Banner*/
+#banner{
+    width: 100%;
+}
+#banner .container{
+    width: 100%;
+    height: 100%;
+}
+#banner .row{
+    width: 100%;
+    height: 100%;
+}
+#banner .col-4 img{
+    width: 100%;
+    padding: 20px 10px;
+}
+#banner .col-4 .txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .col-4 h1{
+    font-size: 900;
+}
+/*Juju*/
+#cover{
+    width: 100%;
+    height: 100%;
+}
+#cover .text h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+#cover .text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#cover .col-3 p{
+    font-size: 20px;
+}
+#chain{
+    width: 100%;
+    height: 100%;
+}
+#chain .text h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+#chain .text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#chain .col-3 p{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#Jreview{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px;
+    background-color: #efefef;
+}
+#Jreview .Jtext h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0px;
+}
+#Jreview .Jtext p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0px;
+}
+#Jreview .col-4 .Jimg img{
+    width: 100%;
+    margin: 20px 0px;
+}
+#Jreview .col-4 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Jreview .col-4 .Jimg1 img{
+    width: 100%;;
+    margin: 20px 60px;
+}
+#Jreview .col-4 .Jimg1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0px;
+}
+#cover .col-3 .juimg{
+    width: 100%;
+}
+#Jfig{
+    width: 100%;
+    height: 100%;
+}
+#Jfig .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Jfig .card{
+    width: 100%;
+    background-color: #efefef;
+}
+#Jfig .col-4 .card .Figimg img{
+    width: 100%;
+}
+#Jfig .col-4 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Jfig .col-4 .buy{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.col-4 .buy span{
+    color: #2449FB;
+    font-size: 20px;
+}
+.col-4 button{
+    background-color: #2449FB;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 5px 20px;
+    border: none;
+}
+#Jfig .fig_text p{
+    padding: 10px 0px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fancy {
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
+}
+.fancy::before {
+    content: " ";
+    width: 1.5625rem;
+    height: 2px;
+    background: black;
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+} 
+.fancy .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.fancy .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+.fancy .bottom-key-1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+.fancy .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy:hover {
+    color: white;
+    background: black;
+}
+
+.fancy:hover::before {
+    width: 0.9375rem;
+    background: white;
+}
+.fancy:hover .text {
+    color: white;
+    padding-left: 1.5em;
+}
+.fancy:hover .top-key {
+    left: -2px;
+    width: 0px;
+}
+.fancy:hover .bottom-key-1,
+    .fancy:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+}
+/*NewRelease*/
+#New{
+    margin-top:20px;
+    width: 100%;
+}
+#New .row{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#New .col-2{
+    margin: 10px 30px;
+}
+#New .row .col-2 img{
+    width: 100%;
+}
+#New .col-2 img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+#New .col-2 .newtxt{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 12px 0px;
+    line-height: 1;
+}
+#New .col-2 p.op{
+    color: red;
+}
+/*Figurines*/
+#figurine{
+    width: 100%;
+    background-color: #efefef;
+}
+#figurine .row{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#figurine .figtxt h1{
+    margin: 10px 0px;
+    padding: 20px 0px;
+    opacity: 0.5;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+#figurine .col-4 .figimg img{
+    width: 100%;
+    padding: 10px 30px;
+}
+#figurine .col-4 .figtext p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+#figurine .col-4 p.fig{
+    color: red;
+}
+/*Articles*/
+#Articles{
+    width: 100%;
+    background-color: #efefef;
+}
+#Articles .row{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Articles .artx h1{
+    opacity: 0.6;
+    text-align: center;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px; 
+}
+#Articles .col-4 .arimg{
+    width: 100%;
+}
+#Articles .col-4 .arimg img{
+    width: 100%;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+#Articles .col-4 .artxt p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px;
+    text-align: center;
+}
+#Articles .col-4 .artxt p.date{
+    color: red;
+}
+/*Footer*/
+#footer{
+    width: 100%;
+    margin-top: 0%;
+    background-color: #2e2e2e;
+}
+#footer .row .row-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+#footer .row .row-1 .col-lg-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer .col-lg-3 img{
+    width: 100%;
+    align-items: center;
+    margin: 40px 10px;
+    padding-left: 30px;
+}
+#footer .col-lg-3 ul{
+    list-style-type: none;
+    line-height: 2;
+    color: white;
+    margin-top: 20px;
+}
+#footer .col-lg-3 li.active{
+    font-size: 25px;
+    color: #FFDD44;
+    font-weight: 500;
+}
+#footer .col-lg-3 li{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3;
+}
+#footer .col-lg-3 li:hover{
+    border-bottom: 1px solid #FFDD44;
+    transition: all 0.3s ease-in-out;
+}
+#footer .col-lg-3 i{
+    margin: 10px 15px;
+}
+#footer .mm p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#footer .mm i{
+    margin: 10px 15px;
+}
+#footer .mm p.man{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+} 
